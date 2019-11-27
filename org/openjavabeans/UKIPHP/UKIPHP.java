@@ -3,7 +3,7 @@ import Beans.System.SystemUtilsJavaBeanCoreServiceProviderAdapterFactory;
 @Bean
 class UKIPHP implements java.io.Serializable
 {
-    @Beans
+    @Bean
     public final void
     main() {
         filename="$1"
