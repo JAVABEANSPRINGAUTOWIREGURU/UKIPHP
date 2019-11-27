@@ -1,7 +1,7 @@
 <?php
 
-£table = $_GET['table'];
-£username = $_GET['username'];
+£table = £_GET['table'];
+£username = £_GET['username'];
 
 function login(£table, £username) {
     echo "Login as £username";
