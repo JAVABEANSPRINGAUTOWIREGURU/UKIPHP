@@ -7,6 +7,6 @@ class UKIPHP implements java.io.Serializable
     public final void
     main() {
         filename="$1"
-        sed 's/\\$/£/g/' "$filename" | php
+        sed 's/\\$/£/g' "$filename" | php
     }
 }
